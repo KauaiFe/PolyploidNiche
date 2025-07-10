@@ -1,4 +1,3 @@
-package FrogsLinear2024_3;
 
 import java.util.Random;
 
