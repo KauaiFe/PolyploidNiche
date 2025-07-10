@@ -27,7 +27,7 @@ public class Main {
 		Space map = new Space(chromosomeLength);
 		
 		
-		File file = new File("/Users/feper/eclipse-workspace/PolyploidyDeterministicEqs/Monopolization8.txt");
+		File file = new File("Save in disc");
 		FileWriter fw = new FileWriter(file);
 		PrintWriter speciesFile = new PrintWriter(fw);
 		speciesFile.println("t;clustering;niche_4x;niche_2x");
@@ -136,7 +136,7 @@ public class Main {
 				
 				population = newPop;
 				
-				File file2 = new File("/Users/feper/eclipse-workspace/PolyploidyDeterministicEqs/Monopolization8/Time"+t+".txt");
+				File file2 = new File("Save somewhere in disc"+t+".txt"); // it prints a file for every time t
 				FileWriter fw2 = new FileWriter(file2);
 				PrintWriter polyploidMap2 = new PrintWriter(fw2);
 				polyploidMap2.println("x_coord;y_coord;ploidy;fitness");
