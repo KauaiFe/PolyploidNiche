@@ -1,4 +1,4 @@
-package FrogsLinear2024_3;
+
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
